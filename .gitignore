@@ -1,0 +1,17 @@
+# Ignore object files
+*.o
+
+# Ignore elf files
+*.elf
+
+# Ignore bin files
+*.bin
+
+# Ignore map files
+*.map
+
+# Ignore todo files
+*.todo
+
+# Remove note files
+*.note
