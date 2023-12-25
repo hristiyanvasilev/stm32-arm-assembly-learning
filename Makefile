@@ -13,8 +13,9 @@ LSCRIPT   = ./$(LD_SCRIPT)
 LFLAGS   += -T$(LSCRIPT)
 
 # Sources and objects
-AS_SRC = ./core.S
-OBJS   = $(AS_SRC:.S=.o)
+AS_SRC  = ./core.S
+AS_SRC += ./main.S
+OBJS    = $(AS_SRC:.S=.o)
 
 .PHONY: all
 all: $(TARGET_ELF)
