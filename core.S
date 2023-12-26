@@ -6,6 +6,8 @@
 /* 16-bit thumb 1/2 instruction set is supported only on cortex-M chips */
 .thumb
 
+.text
+
 /* virtual table */
 .global vtable
 
